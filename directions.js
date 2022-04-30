@@ -9,7 +9,7 @@ function dirReduc(arr){
       WEST: "EAST"
     }
     
-    arr.forEach((word,index,array)=>{
+    arr.forEach((word)=>{
       if (answer[answer.length-1]===rules[word]){
         answer.pop()
       } else{
